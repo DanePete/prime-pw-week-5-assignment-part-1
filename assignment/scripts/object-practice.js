@@ -53,3 +53,6 @@ console.log(me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
+me.bob = 'bobby';
+
+console.log(me);
