@@ -16,6 +16,7 @@ const me = {
   shoeCount: 2,
   favThreeFoods: ['beef', 'pasta', 'mexican']
 };
+
 console.log('A little about me:', me);
 
 /* 2. Accessing object properties.
@@ -34,6 +35,9 @@ console.log(fullName);
 */
 console.log(me.favThreeFoods[0]);
 console.log(me.favThreeFoods[2]);
+
+console.log(me.favThreeFoods.shift());
+console.log(me.favThreeFoods[me.favThreeFoods.length - 1]);
 
 
 /* 4. Change a property of an existing object.
